@@ -59,9 +59,9 @@ class _ChatBotState extends State<ChatBot> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Amigo'),
-        backgroundColor: Color.fromARGB(255, 27, 28, 38),
+        backgroundColor: const Color.fromARGB(255, 27, 28, 38),
       ),
-      backgroundColor: Color.fromARGB(255, 27, 28, 38),
+      backgroundColor: const Color.fromARGB(255, 27, 28, 38),
       body: DashChat(
         messageOptions: const MessageOptions(
           showTime: false,

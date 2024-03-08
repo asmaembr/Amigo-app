@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
         useMaterial3: false,
       ),
-      home: ChatBot(),
+      home: const ChatBot(),
     );
   }
 }
