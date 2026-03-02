@@ -23,7 +23,10 @@ pluginManagement {
 
 plugins {
     id "dev.flutter.flutter-plugin-loader" version "1.0.0"
-    id "com.android.application" version "7.3.0" apply false
+    // bump AGP to a version compatible with Gradle 8.x
+    id "com.android.application" version "8.11.1" apply false
+    // match Kotlin plugin from new Flutter templates
+    id "org.jetbrains.kotlin.android" version "2.2.20" apply false
 }
 
 include ":app"
